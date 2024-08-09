@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #0f0f10; /* Morado oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #00ff00; /* Verde neón */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #00ff00; /* Verde neón */
+    text-decoration: none;
+}
+
+.body-mi {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #060606;
+}
+
+
+h1 {
+    color: #00ff00; /* Verde neón */
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border: 3px solid #00ff00; /* Borde verde neón */
+}
+
+.info {
+    max-width: 600px;
+}
+
+section {
+    padding: 40px;
+    border-bottom: 1px solid #131212;
+}
+
+#mapa iframe {
+    width: 100%;
+    height: 400px;
+    border: 2px solid #00ff00; /* Borde verde neón */
+}
+
+#contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contacto a {
+    color: #00ff00; /* Verde neón */
+    text-decoration: none;
+}
+
+#intereses {
+    background-color: #2e2e2e; /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4b0082; /* Morado oscuro */
+}
+
+
